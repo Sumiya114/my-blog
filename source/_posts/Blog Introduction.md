@@ -13,7 +13,8 @@ categories:
 
 ### **所使用的AI大模型及智能体**
 引导步骤及过程的为 ==🟠Gemini(Hydrogen 模型)==
-进行实际代码与样式优化的为 ==🟠Antigravity（调用 Gemini 3.8 Flash High）==
+进行实际代码与样式优化的为 
+==🟠Antigravity（调用 Gemini 3.8 Flash Hig与Gemini 4 hydrogen）==
 
 
 ### **构建技术方案**
