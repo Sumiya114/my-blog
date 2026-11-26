@@ -153,10 +153,11 @@ index_top_img_height:
 subtitle:
   enable: true
   # Typewriter Effect
-  effect: false
+  effect: true
   # Customize typed.js
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
+    loop: true
   # Source - Call the third-party service API (Chinese only)
   # It will show the source first, then show the content of sub
   # Choose: false/1/2/3
@@ -164,11 +165,11 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - https://api.aa1.cn/doc/yiyan.html
   # 3 - jinrishici.com
-  source: 1
+  source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - 欢迎来到 Sumiya の 个人博客
     - 至死忠于内心
+    - 欢迎来到Sumiyaの个人博客
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
