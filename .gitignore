@@ -6,3 +6,7 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+
+# Obsidian vault configurations and workspace state
+.obsidian/
+**/.obsidian/

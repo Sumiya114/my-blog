@@ -5,8 +5,8 @@
 # Site
 title: SumiyaのBlog
 subtitle: 欢迎来到Sumiya的Blog
-description: ''
-keywords:
+description: '欢迎来到Sumiya的个人博客，记录生活与技术点滴。'
+keywords: 'Sumiya, Blog, 博客, 技术博客'
 author: Sumiya
 language: zh-CN
 timezone: ''
@@ -30,7 +30,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - "admin/**"
-  - "_posts/.obsidian/**"
+  - "**/.obsidian/**"
 
 # Writing
 new_post_name: :title.md # File name of new posts
