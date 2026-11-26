@@ -6,13 +6,13 @@ tags:
 categories:
   - 说明
 ---
-# ==***这里是博客创建说明*** 我在这里会详细介绍此博客是如何创建的==
-（待完成中）
-#### **1：所使用的AI大模型及智能体**
+# ***这里是博客创建说明*** 
+我在这里会详细介绍此博客是如何创建的（待完成中）
+## **1：所使用的AI大模型及智能体**
 引导步骤及过程的为 ==🟠Gemini(Hydrogen 模型)==
 进行实际代码与样式优化的为 ==🟠Antigravity（调用 Gemini 3.8 Flash High）==
 
-#### **2：构建技术方案**
+## **2：构建技术方案**
 Jamstack(静态站点架构)
 
 | 维度    | 当前配置与技术方案                                                      | 说明                                     |
@@ -24,7 +24,7 @@ Jamstack(静态站点架构)
 | 写作与图床 | Obsidian + `obsidian-image-auto-upload-plugin` + Cloudflare R2 | 本地 Markdown 写作 + 粘贴自动上传 R2 独立对象存储，非常规范 |
 | 发布流程  | publish.ps1 / 推送github.bat                                     | 本地一键构建校验、提交并推送到 GitHub                 |
 | 构建状态  | 验证通过 (`hexo generate` 8 个页面耗时 ~57ms)                           | 零报错，配置语法正确                             |
-##### 此架构的优势
+### 此架构的优势
 - **1：0 成本**：
     - GitHub 免费私有/公有代码托管；
     - Cloudflare Pages 免费无限构建流量与全球 CDN 加速；
