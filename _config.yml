@@ -111,3 +111,18 @@ search:
   field: post
   content: true
   format: html
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+
+# Feed (RSS)
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date

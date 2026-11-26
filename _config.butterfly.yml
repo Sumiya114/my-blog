@@ -49,6 +49,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/Sumiya114 || Github || '#24292e'
+  fas fa-rss: /atom.xml || RSS || '#ff6600'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
 # --------------------------------------
@@ -433,7 +434,7 @@ copy:
     limit_count: 150
 
 wordcount:
-  enable: false
+  enable: true
   # Display the word count of the article in post meta
   post_wordcount: true
   # Display the time to read the article in post meta
