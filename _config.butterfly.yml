@@ -55,7 +55,7 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+favicon: https://pub-cb6650ead1b4404c867c3b7e72423746.r2.dev/2026/11/b2d76ff7886a566e9aa2708371df077b.png
 
 avatar:
   img: https://pub-cb6650ead1b4404c867c3b7e72423746.r2.dev/2026/11/b2d76ff7886a566e9aa2708371df077b.png
@@ -817,11 +817,11 @@ mask:
 
 # Loading Animation
 preloader:
-  enable: false
+  enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 1
+  source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
 
@@ -1008,7 +1008,7 @@ note:
 
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   # Exclude the specified pages from pjax, such as '/music/'
   exclude:
     # - /xxxxxx/
@@ -1025,12 +1025,12 @@ snackbar:
 
 # Instant.page
 # https://instant.page/
-instantpage: false
+instantpage: true
 
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   # Use browser's native lazyload instead of vanilla-lazyload
   native: false
   # Specify the field to use lazyload (site or post)
