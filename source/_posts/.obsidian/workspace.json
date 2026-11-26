@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hello-world.md",
+                "file": "测试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hello-world"
+              "title": "测试"
             }
           }
         ]
@@ -190,8 +190,8 @@
   },
   "active": "dbb249ae8fdca96e",
   "lastOpenFiles": [
-    "测试.md",
     "hello-world.md",
+    "测试.md",
     "SumiyaのBlog/欢迎.md"
   ]
 }
