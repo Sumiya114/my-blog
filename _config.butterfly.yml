@@ -153,7 +153,7 @@ index_top_img_height:
 subtitle:
   enable: true
   # Typewriter Effect
-  effect: true
+  effect: false
   # Customize typed.js
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
@@ -168,7 +168,7 @@ subtitle:
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
     - 欢迎来到 Sumiya の 个人博客
-    - 记录生活与技术点滴
+    - 至死忠于内心
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
