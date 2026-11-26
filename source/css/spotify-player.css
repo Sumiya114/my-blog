@@ -1,0 +1,102 @@
+#spotify-float-player {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 99;
+}
+
+#spotify-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  cursor: pointer;
+  background: var(--card-bg, #fff);
+  color: var(--font-color, #4c4948);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.14);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#spotify-toggle-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+#spotify-toggle-btn i {
+  color: #1db954;
+  font-size: 18px;
+}
+
+#spotify-panel {
+  position: absolute;
+  left: 0;
+  bottom: 48px;
+  width: 320px;
+  max-width: calc(100vw - 40px);
+  background: var(--card-bg, #fff);
+  border: 1px solid rgba(128, 128, 128, 0.18);
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(12px) scale(0.98);
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+}
+
+#spotify-panel.open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+.spotify-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--font-color, #4c4948);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+#spotify-close-btn {
+  background: transparent;
+  border: none;
+  color: var(--font-color, #4c4948);
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 6px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease, background 0.2s ease;
+}
+
+#spotify-close-btn:hover {
+  opacity: 1;
+  background: rgba(128, 128, 128, 0.15);
+}
+
+@media screen and (max-width: 768px) {
+  #spotify-float-player {
+    left: 12px;
+    bottom: 12px;
+  }
+
+  #spotify-toggle-btn {
+    padding: 7px 12px;
+    font-size: 13px;
+  }
+
+  #spotify-panel {
+    max-width: calc(100vw - 24px);
+    bottom: 44px;
+  }
+}
